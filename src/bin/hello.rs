@@ -1,15 +1,12 @@
 #[derive(Debug, Eq, Ord, PartialEq, PartialOrd)]
-struct Person{
+struct Person {
     name: String,
     age: u32,
 }
 
-impl Person{
-    pub fn new(name:String, age: u32) -> Self{
-        Person{
-            name,
-            age,
-        }
+impl Person {
+    pub fn new(name: String, age: u32) -> Self {
+        Person { name, age }
     }
 }
 fn main() {
@@ -22,6 +19,6 @@ fn main() {
     people.sort();
     println!("{:?}", people);
 
-    people.sort_by(|a,b| b.age.cmp(&a.age));
+    people.sort_by(|a, b| b.age.cmp(&a.age));
     println!("{:?}", people);
 }

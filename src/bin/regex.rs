@@ -1,6 +1,5 @@
 //# regex = "1.2.1"
 
-
 use regex::Regex;
 
 const TO_SEARCH: &'static str = "
