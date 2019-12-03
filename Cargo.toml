@@ -1,0 +1,70 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["zxk7516 <zxk7516@foxmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+# serde = "1.0"
+regex = "1.0"
+async-std = { path = "/Users/qmp/rust/async-std" }
+chrono = "0.4.9"
+derive_more = "*"
+
+
+[[bin]]
+name = "a02"
+path = "src/bin/a02.rs"
+[[bin]]
+name = "a01"
+path = "src/bin/a01.rs"
+[[bin]]
+name = "hello"
+path = "src/bin/hello.rs"
+
+[[bin]]
+name = "regex"
+path = "src/bin/regex.rs"
+
+[[bin]]
+name = "async_print_file"
+path = "src/bin/async_print_file.rs"
+
+[[bin]]
+name = "tic"
+path = "src/bin/tic.rs"
+
+[[bin]]
+name = "args"
+path = "src/bin/args.rs"
+
+
+[[bin]]
+name = "match"
+path = "src/bin/match.rs"
+
+
+[[bin]]
+name = "phantom"
+path = "src/bin/phantom.rs"
+
+[[bin]]
+name = "async_s"
+path = "src/bin/async_s.rs"
+
+[[bin]]
+name = "highest_and_lowest"
+path = "src/bin/highest_and_lowest.rs"
+
+[[bin]]
+name = "chemistry"
+path = "src/bin/chemistry.rs"
+[[bin]]
+name = "sink"
+path = "src/bin/sink.rs"
+[[bin]]
+name = "time"
+path = "src/bin/time.rs"
