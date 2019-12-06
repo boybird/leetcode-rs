@@ -13,8 +13,12 @@ regex = "1.0"
 async-std = { path = "/Users/qmp/rust/async-std" }
 chrono = "0.4.9"
 derive_more = "*"
+rand = "*"
 
 
+[[bin]]
+name = "rdu"
+path = "src/bin/rdu.rs"
 [[bin]]
 name = "a02"
 path = "src/bin/a02.rs"
